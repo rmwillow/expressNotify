@@ -4,12 +4,13 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.1"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/rmwillow/expressNotify/issues"
   },
-  "homepage": "https://github.com/rmwillow/expressNotify#readme"
+  "homepage": "https://github.com/rmwillow/expressNotify#readme",
+  "devDependencies": {}
 }
