@@ -1,5 +1,5 @@
 {
-  "name": "expressNotify",
+  "name": "expressnotify",
   "version": "1.0.0",
   "description": "[Check out Express Notify on Heroku!](https://expressnotify.herokuapp.com/)",
   "main": "server.js",
