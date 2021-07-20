@@ -1,7 +1,7 @@
 {
-  "name": "note-taker",
+  "name": "expressNotify",
   "version": "1.0.0",
-  "description": "[Check out Note Taker on Heroku!](https://expressnotify.herokuapp.com/)",
+  "description": "[Check out Express Notify on Heroku!](https://expressnotify.herokuapp.com/)",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,6 +20,5 @@
   "bugs": {
     "url": "https://github.com/rmwillow/expressNotify/issues"
   },
-  "homepage": "https://github.com/rmwillow/expressNotify#readme",
-  "devDependencies": {}
+  "homepage": "https://github.com/rmwillow/expressNotify#readme"
 }
