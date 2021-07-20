@@ -3,7 +3,7 @@ var path = require("path");
 var fs = require("fs")
 
 // Sets up the Express App
-// =============================================================
+
 var app = express();
 var PORT = process.env.PORT || 3001;
 
@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 // HTML Routes
-// =============================================================
+
 
 // Basic route that sends the user first to the AJAX Page
 app.get("/", function (req, res) {
@@ -46,9 +46,9 @@ app.post("/api/notes", function (req, res) {
   })
 })
 
-/
+
 // Starts the server to begin listening
-// =============================================================
+
 app.listen(PORT, function () {
   console.log("App listening on PORT " + PORT);
 });
